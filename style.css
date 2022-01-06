@@ -1,0 +1,89 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    
+}
+.top-part .font-color{
+    padding-left:  15px;
+    border-left: 2px solid  blue;
+}
+
+.color{
+    color: darkblue;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.top-part{
+    width: 50%;
+    padding-left: 10%;
+}
+.top-part img{
+    width: 80%;
+}
+
+.top-part input{
+        padding: 8px 20px;
+        background-color: #8393ff;
+        outline: none;
+        color: white;
+        border: 1px solid #8393ff;
+        font-size: 15px
+    }
+    .top-part input:hover{
+        box-shadow: 5px 10px 30px rgb(130,147,255, 0.5);
+        transition: all 0.5s ease-in 0.25s;
+        outline: none;}
+.My-future-area h1{
+    text-align: center;
+}
+.My-future-area .part-1{
+    background-color: #edf5f6;
+    width: 33%;
+    box-shadow: 10px 10px 10px;
+}
+.My-future-area .part-1 h3{
+    text-align: center;
+}
+.My-future-area .part-2{
+    background-color: #ffeeee;
+    width: 33%;
+    box-shadow: 10px 10px 10px;
+}
+.My-future-area .part-2 h3{
+    text-align: center;
+}
+.My-future-area .part-3{
+    background-color: #fff4d6;
+    width: 33%;
+    box-shadow: 10px 10px 10px;
+}
+.My-future-area .part-3 h3{
+    text-align: center;
+}
+.develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+.global{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;}
+    footer p{
+        display: block;
+        height: 150px;
+        width: 1200px;
+        background-color: #0b0d17;
+        margin: auto;
+        color: white;
+        text-align: center;
+        box-shadow: 10px 10px 10px;
+        
+    }
+
